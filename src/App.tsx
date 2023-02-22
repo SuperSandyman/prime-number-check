@@ -4,17 +4,17 @@ const App: React.FC = () => {
     const [inputNumber, setInputNumber] = useState(0);
 
     // 素数を判定する関数
-    const isPrime = (inputNumber: number) => {
-        if (inputNumber < 2) {
-            return false;
-        }
-        for (let i = 2; i < inputNumber; i++) {
-            if (inputNumber % i === 0) {
-                return false;
-            }
-        }
-        return true;
-    };
+    // const isPrime = (inputNumber: number) => {
+    //     if (inputNumber < 2) {
+    //         return false;
+    //     }
+    //     for (let i = 2; i < inputNumber; i++) {
+    //         if (inputNumber % i === 0) {
+    //             return false;
+    //         }
+    //     }
+    //     return true;
+    // };
 
     // const Prime = () => {
     //     return (
